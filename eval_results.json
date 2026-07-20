@@ -1,0 +1,209 @@
+{
+  "avg_completeness": 0.686,
+  "runs": [
+    {
+      "id": 1,
+      "question": "I am looking at the Apex Aura Sedan. Can you tell me its highway fuel economy and what the APR interest rate would be for someone with a Tier 1 credit score?",
+      "ai_response": "Based on the information retrieved, the highway fuel economy for the Apex Aura Sedan is 37 MPG. \n\nFor someone with a Tier 1 credit score, the APR interest rate would be between 1.9% and 3.5%.",
+      "latency_seconds": 2.9,
+      "completeness_score": 1.0,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "37 MPG Highway",
+            "captured": true
+          },
+          {
+            "fact": "1.9% - 3.5%",
+            "captured": true
+          },
+          {
+            "fact": "Apex Aura Sedan",
+            "captured": true
+          }
+        ],
+        "completeness_score": 1.0
+      }
+    },
+    {
+      "id": 2,
+      "question": "How many passengers can the TerraQuest X7 SUV hold and how long am I covered under its powertrain warranty?",
+      "ai_response": "The TerraQuest X7 SUV can hold up to 7 passengers. You are covered under its powertrain warranty for 7 years or 100,000 miles, whichever comes first.",
+      "latency_seconds": 0.58,
+      "completeness_score": 0.5,
+      "details": {
+        "fallback_applied": true
+      }
+    },
+    {
+      "id": 3,
+      "question": "What is the rear cargo capacity of the EcoPulse H2 Hybrid, and how much can i save on it using the Colledge Graduate Program?",
+      "ai_response": "The rear cargo capacity of the EcoPulse H2 Hybrid is 22.5 cubic feet of rear cargo space with an adjustable load floor. \n\nAs for the savings using the Colledge Graduate Program, you can get a $400 cash rebate and automatic approval for Tier 2 financing rates, regardless of limited credit history (provided there is no negative credit history).",
+      "latency_seconds": 0.87,
+      "completeness_score": 0.57,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "22.5 cubic feet",
+            "captured": true
+          },
+          {
+            "fact": "$400 cash rebate",
+            "captured": true
+          },
+          {
+            "fact": "EcoPulse H2 Hybrid",
+            "captured": true
+          },
+          {
+            "fact": "rear cargo space with an adjustable load floor",
+            "captured": false
+          },
+          {
+            "fact": "automatic approval for Tier 2 financing rates",
+            "captured": true
+          },
+          {
+            "fact": "regardless of limited credit history",
+            "captured": false
+          },
+          {
+            "fact": "provided there is no negative credit history",
+            "captured": false
+          }
+        ],
+        "completeness_score": 0.57
+      }
+    },
+    {
+      "id": 4,
+      "question": "what is the targeted total driving range of the VoltZen Pure EV on a full charge and what point of sale tax incentives appl to it?",
+      "ai_response": "The targeted total driving range of the VoltZen Pure EV on a full charge is 310 miles. The point of sale tax incentives that apply to it are:\n\n* Up to $7,500 federal tax credit for eligible buyers who fall below federal income thresholds ($150,000 for single filers, $300,000 for joint filers).\n* 0.5% APR reduction for qualified tier-1 buyers.\n* Zero-down lease deals for qualified buyers.\n* Promotional tier-1 financing rates starting at 1.9% APR for up to 48 months, or standard 36-month lease terms.",
+      "latency_seconds": 22.06,
+      "completeness_score": 0.75,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "310 miles",
+            "captured": true
+          },
+          {
+            "fact": "up to $7,500 point of sale rebate",
+            "captured": true
+          },
+          {
+            "fact": "VoltZen Pure EV",
+            "captured": true
+          },
+          {
+            "fact": "Up to $7,500 federal tax credit for eligible buyers",
+            "captured": false
+          },
+          {
+            "fact": "0.5% APR reduction for qualified tier-1 buyers",
+            "captured": true
+          },
+          {
+            "fact": "Zero-down lease deals for qualified buyers",
+            "captured": true
+          },
+          {
+            "fact": "Promotional tier-1 financing rates starting at 1.9% APR for up to 48 months",
+            "captured": true
+          },
+          {
+            "fact": "Standard 36-month lease terms",
+            "captured": false
+          }
+        ],
+        "completeness_score": 0.75
+      }
+    },
+    {
+      "id": 5,
+      "question": "If my loan payment is late, what penalty fee will I be charged and what iS the minimum monthly income required to finance a vehicle worth $45,000?",
+      "ai_response": "Based on the information retrieved from the sales and finance tool, the penalty fee for a late payment is 5% of the past-due payment amount or $35, whichever is greater. Additionally, the minimum monthly income required to finance a vehicle worth $45,000 is $4,000, as per the financing options document.",
+      "latency_seconds": 26.06,
+      "completeness_score": 0.75,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "5% of the past due payment amount or $35",
+            "captured": true
+          },
+          {
+            "fact": "$4,000",
+            "captured": true
+          },
+          {
+            "fact": "minimum monthly income required to finance a vehicle worth $45,000",
+            "captured": true
+          },
+          {
+            "fact": "financing options document",
+            "captured": false
+          }
+        ],
+        "completeness_score": 0.75
+      }
+    },
+    {
+      "id": 6,
+      "question": "I am graduating college next month and looking to buy the VoltZen Pure EV. Can I combine the college graduate program rebate with EV Federal tax credit and what specific IRS form must be completed at the time of sale?",
+      "ai_response": "You can combine the college graduate program rebate with the EV Federal tax credit. To qualify, you must meet the eligibility criteria for both programs. At the time of sale, you will need to complete IRS Form 15400 to claim the EV Federal tax credit.",
+      "latency_seconds": 25.57,
+      "completeness_score": 0.67,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "can be stacked",
+            "captured": true
+          },
+          {
+            "fact": "up to $7,500 point-of-sale rebate",
+            "captured": false
+          },
+          {
+            "fact": "IRS Form 15400",
+            "captured": true
+          }
+        ],
+        "completeness_score": 0.67
+      }
+    },
+    {
+      "id": 7,
+      "question": "what type of drivetrain does the VoltZen Pure EV have and according to your maintenance shedule, how often should I bring it in for tire rotations based on that exact drivetrain?",
+      "ai_response": "Based on the information retrieved from the fleet catalog and service and warranty tools, the VoltZen Pure EV has a dual high-efficiency permanent magnet synchronous AC electric motor drivetrain with a single-speed direct-drive reduction gearbox.\n\nFor tire rotations, it is recommended to bring the vehicle in every 5,000 to 7,500 miles to ensure even tread wear, with a critical rotation every 5,000 miles for AWD vehicles to prevent drivetrain stress from uneven tire circumferences.",
+      "latency_seconds": 24.22,
+      "completeness_score": 0.67,
+      "details": {
+        "facts_checked": [
+          {
+            "fact": "Dual-Motor All-Wheel Drive (AWD)",
+            "captured": false
+          },
+          {
+            "fact": "rotate every 5,000 miles",
+            "captured": true
+          },
+          {
+            "fact": "AWD vehicles",
+            "captured": true
+          }
+        ],
+        "completeness_score": 0.67
+      }
+    },
+    {
+      "id": 8,
+      "question": "I want to trade in my old Kawasaki motorcycle to buy an Apex Aura Sedan. Does your trade-in policy allow this, and what is the standard bumper-to-bumper basic warranty coverage duration on that sedan?",
+      "ai_response": "Based on the information retrieved, it appears that Velocity Dealerships does not accept motorcycles as trade-ins. However, you can still trade in your old Kawasaki motorcycle, but you will need to purchase a different vehicle from their dealership.\n\nAs for the Apex Aura Sedan, the standard bumper-to-bumper basic warranty coverage duration is 3 years or 36,000 miles, whichever comes first. This warranty covers defects in materials or workmanship for all vehicle systems excluding routine maintenance items.",
+      "latency_seconds": 25.4,
+      "completeness_score": 0.58,
+      "details": {
+        "fallback_applied": true
+      }
+    }
+  ]
+}
