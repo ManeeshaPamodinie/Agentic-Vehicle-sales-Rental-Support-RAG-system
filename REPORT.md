@@ -103,4 +103,4 @@ The primary factor lowering the metric down to 68.6% average completeness score.
 
 ## Hugging face deployment
 
-- main.py rename as app.py file to launch.
+link: https://manee-sha12-vehicle-rag-app.hf.space
