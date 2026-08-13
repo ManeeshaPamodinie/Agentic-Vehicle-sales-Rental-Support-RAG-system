@@ -37,10 +37,10 @@ Outcome : 15 documents successfully loaded.
 ## 4. Stage 2 - Chunking Strategy
 
 Documents are split using:
-- chunk size = 600 characters
-- overlap = 100 characters
+- chunk size = 900 characters
+- overlap = 200 characters
 
-Outcome : 66 text chunks created.
+Outcome : 59 text chunks created.
 
 ## 5.  Stage 3 - Embeddings & Vector store
 
@@ -54,7 +54,7 @@ Features:
 - Avoid recomputation using persistence
 - Loads existing DB if available
 
-Outcome : 66 Vectors in database.
+Outcome : 59 Vectors in database.
 
 ## 6. Stage 4 - Routing & Retrieval System
 
