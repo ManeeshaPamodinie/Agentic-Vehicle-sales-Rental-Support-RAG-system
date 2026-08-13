@@ -17,9 +17,13 @@ This is developed to reduce communication friction between dealership operations
  Text Splitting = RecursiveCharacterTextSplitter
  
  Embeddings = sentence-transformers/all-MiniLM-L6-v2(HuggingFace)
+ 
  Vector DB = ChromaDB
+ 
  LLM = Groq - openai/gpt-oss-20b
+ 
  UI - Gradio ChatInterface
+ 
  Evaluation - custom python script 
 
 ## 3. Stage 1 - Document Ingestion
