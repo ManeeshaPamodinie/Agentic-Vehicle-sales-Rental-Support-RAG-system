@@ -10,7 +10,7 @@ The system orchestrates a LangChain tool-calling agent to answer complex, multi-
 - chromaDB
 - HuggingFace Embeddings
 - Agentic framework(langchain-classic utillizing AgentExecutor and create_tool_calling_agent for multi-hop tool routing)
-- Groq LLM (llama-3.1-8b-instant)
+- Groq LLM (openai/gpt-oss-20b)
 - Gradio UI
 
 ## setup instrutions
