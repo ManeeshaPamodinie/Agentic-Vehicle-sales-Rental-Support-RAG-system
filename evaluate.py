@@ -66,7 +66,7 @@ evaluation_dataset = [
     }
 ]
 
-eval_llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
+eval_llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 
 SYSTEM_PROMPT = """You are an elite, helpful virtual customer assistant for 'Velocity Dealerships'.
 your primary job is to provide accurate answers about vehicle models, financing policies, buying rules and rental agreements.
