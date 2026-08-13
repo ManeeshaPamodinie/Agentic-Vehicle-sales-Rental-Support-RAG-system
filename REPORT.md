@@ -13,7 +13,9 @@ This is developed to reduce communication friction between dealership operations
 
   ## 2. Tech Stack
  Document loader = langchain DirectoryLoader
+ 
  Text Splitting = RecursiveCharacterTextSplitter
+ 
  Embeddings = sentence-transformers/all-MiniLM-L6-v2(HuggingFace)
  Vector DB = ChromaDB
  LLM = Groq - openai/gpt-oss-20b
